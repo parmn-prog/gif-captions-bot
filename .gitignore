@@ -1,0 +1,52 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===== Virtual environments =====
+venv/
+.env/
+.env.*
+
+# ===== Secrets =====
+.env
+*.env
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Logs =====
+*.log
+
+# ===== Generated media =====
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.webp
+temp/
+output/
+downloads/
+
+# ===== Build / packaging =====
+build/
+dist/
+*.egg-info/
+
+# ===== Testing / coverage =====
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ===== FFmpeg / binaries (if you add later) =====
+ffmpeg
+ffmpeg.exe
+
